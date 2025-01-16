@@ -1,0 +1,17 @@
+[HostEurope]
+host="https://kis.hosteurope.de"
+path="/administration/domainservices/index.php"
+general_list_query="?menu=2&mode=autodns"
+domain_list_query="&submode=edit&domain=[domain]"
+host_create_query="&record=[record_type]&pointeradd=[pointer]&truemode=host&hostadd=[host_name]&action=add&submit=Neu+anlegen"
+host_update_query="&record=[record_type]&pointer=[pointer]&truemode=host&hostid=[host_id]&submit=Update"
+host_delete_query="&record=[record_type]&pointer=[pointer]&truemode=host&hostid=[host_id]&submit=L%F6schen"
+login_credentials_query="&kdnummer=[kdnr]&passwd=[password]"
+force_parameter="&nachfrage=1"
+
+[IPResolver]
+url="https://api.ipify.org/"
+
+[Credentials]
+username="kundennummer"
+password="passwort"

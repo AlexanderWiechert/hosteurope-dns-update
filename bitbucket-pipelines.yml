@@ -1,0 +1,11 @@
+image: phpunit/phpunit:5.5.0
+
+pipelines:
+  default:
+    - step:
+        script: # Modify the commands below to build your repository.
+          - php -v
+          - phpunit --version
+          - git clone https://Flozn27@bitbucket.org/Flozn27/hosteurope-dns-update.git
+          - composer install
+          - phpunit -c tests/phpunit.xml
