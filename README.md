@@ -4,7 +4,6 @@ To install this script you should navigate to the folder where you want to insta
 ```
 #!php
 
-git clone https://Flozn27@bitbucket.org/Flozn27/hosteurope-dns-update.git
 ```
 
 ## Composer ##
